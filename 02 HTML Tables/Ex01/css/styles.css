@@ -1,0 +1,37 @@
+html, body, table, thead, th, tfoot, tbody, tr, td, img { 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia, serif;
+	color: #000000;
+	font-size: 62.5%;
+	background-color: #ffffff;
+}
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;	
+}
+
+#fruits thead th {
+	font-size: 1.6em;
+}
+
+#fruits tbody td {
+	height: 15em;
+	width: 20em;
+	font-size: 1.2em;
+}
+
+	#fruits tbody td img{
+		height: 15em;
+		width: 15em;
+	}
+
+#AlphabetTable  td {
+	padding: 1em;
+	border: 1px solid #000000;
+	font-size: 1.5em;
+}

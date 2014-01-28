@@ -1,0 +1,45 @@
+html, body, form, input, label, table, thead, th, tfoot, tbody, tr, td, textarea { 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	color: #000000;
+	font-size: 62.5%; /* 10px = 1em */ 
+	background-color: #ffffff;
+}
+
+#studentList {
+	margin: 0 auto;
+	width: 53em;
+}
+
+	#studentList  table {
+		font-size: 1em;
+		border-collapse:collapse;
+	}
+		#studentList table tfoot {
+			text-align:center;
+		}
+
+			#studentList table tfoot  input {
+				padding: 0.3em;
+			}
+			
+			#studentList table tfoot input[value="Previous"], #studentList table tfoot input[value="Next"] {
+				width:5em;
+			}
+	
+		#studentList  table td, #studentList  table th  {
+			padding: 0.3em;
+			border: 1px solid #000000;
+		}
+		
+		#studentList  table td.lastCol, #studentList  table tbody tr td:last-child{
+			font-weight: bold;
+		}
+		
+		#studentList  table th, #studentList table tfoot  {
+			background-color:#d1ede1;
+		}

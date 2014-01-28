@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Profile of Doncho</title>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<!-- Долния линк осигурява поддръжка за HTML5 тагове, ако браузара е по-никса версия от Интерент Експлорър 9 -->
+		<!--[if lt IE 9]> 
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<noscript>
+				 <strong>Warning !</strong>
+				 Because your browser does not support HTML5, some elements are simulated using JScript.
+				 Unfortunately your browser has disabled scripting. Please enable it in order to display this page.
+			</noscript>
+		<![endif]-->
+    </head>
+<body>
+	<div id="wrapper">
+		<header>
+			<nav>
+				<ul class="float-clear">
+					<li><a href="Profile.html" title="Profile">Profile</a></li>
+					<li><a href="Friends.html" title="Friends">Friends</a></li>
+					<li><a href="info.html" title="Additional Information">Additional Information</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- използвал съм rich snipet, използва се от търсачките. Темата е обширна и има доста инфо в гугъл -->
+		<section id="profile" itemscope itemtype="http://schema.org/Person">
+			<h1><em>Profile of Doncho</em></h1>
+			<img src="images/doncho.jpg" itemprop="image" alt="Doncho Minkov"/>
+			<dl>
+				<dt>Name:</dt>
+				<dd itemprop="name">Doncho Minkov</dd>
+				<dt>Birthday:</dt>
+				<dd itemprop="birthDate">1989-06-22</dd>
+				<dt>Occupation:</dt>
+				<dd itemprop="jobTitle" itemscope itemtype="http://schema.org/JobPosting">
+					<ul>
+						<li itemprop="title">Student</li>
+						<li>Area of occupation: <span itemprop="industry">IT</span></li>
+					</ul>
+				</dd>
+			</dl>
+		</section>
+	</div>
+</body>
+</html>

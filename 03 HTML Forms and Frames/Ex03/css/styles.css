@@ -1,0 +1,90 @@
+html, body, form, input, label, table, thead, th, tfoot, tbody, tr, td { 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	color: #000000;
+	font-size: 62.5%; /* 10px = 1em */ 
+	background-color: #ffffff;
+}
+
+#productList, #productList  table {
+	width: 89.5em;
+}
+
+#productList {
+	margin: 0 auto;
+	font-size: 1em;
+	border: 1px solid #d9dfea;
+	border-radius: 1em;
+	overflow: hidden;
+}
+	#productList input {
+		vertical-align: bottom
+	}
+
+	#productList  table {
+		border-collapse: collapse;
+		border: 1px solid #a6acb3;
+	}
+		#productList  table thead {
+			text-align: left;
+		}
+			#firstRow  th {
+				background-color: #e7e9eb;
+			}
+			
+			#secondRow {
+				background: #f2f2f4; /* Old browsers */
+				background: -moz-linear-gradient(top,  #f2f2f4 0%, #dbdee2 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f4), color-stop(100%,#dbdee2)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #f2f2f4 0%,#dbdee2 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #f2f2f4 0%,#dbdee2 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #f2f2f4 0%,#dbdee2 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #f2f2f4 0%,#dbdee2 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f4', endColorstr='#dbdee2',GradientType=0 ); /* IE6-9 */
+			}
+			
+			#thirdRow {
+				background-color: #dfe3e8;
+			}
+		
+		#productList  table td, #productList  table th  {
+			padding: 0.4em;
+			border: 1px solid #a6acb3;
+		}
+
+		#productList table tfoot {
+			text-align: left;
+			background: #e5e9ed; /* Old browsers */
+			background: -moz-linear-gradient(top,  #e5e9ed 0%, #b9bec3 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e9ed), color-stop(100%,#b9bec3)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #e5e9ed 0%,#b9bec3 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #e5e9ed 0%,#b9bec3 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #e5e9ed 0%,#b9bec3 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #e5e9ed 0%,#b9bec3 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e9ed', endColorstr='#b9bec3',GradientType=0 ); /* IE6-9 */
+		}	
+
+			#productList table tfoot a {
+				display: inline-block;
+				*display: inline;
+				zoom: 1;
+				padding: 0.4em;
+				font-size: 1.2em;
+				color: #000000;
+				text-decoration: none;
+				border-radius: 0.5em;
+				border: 1px solid transparent;
+			}
+			
+			#productList table tfoot a.current {
+				border: 1px solid #cb6514;
+				/* outline:1px solid #FC0; */
+			}
+			
+			#productList table tfoot td{
+				border: none;
+			}

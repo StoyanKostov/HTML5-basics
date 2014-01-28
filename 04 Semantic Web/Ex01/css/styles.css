@@ -1,0 +1,16 @@
+html, body, div, header, section, article, footer, h1, h2, h3, ul, li, p {
+	/* Принципно тук трябва да се нулират HTML елементите, но за да е малко по-четимо оставям margin*/
+	margin: 10px 0 0 10px;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia, serif;
+	color: #000000;
+	font-size: 62.5%;
+	background-color: #ffffff;
+}
+
+#navigation>ul>li>a.current {
+	font-weight: bold;
+}

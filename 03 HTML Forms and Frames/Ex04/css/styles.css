@@ -1,0 +1,35 @@
+html, body, form, input, label, table, fieldset, legend, thead, th, tfoot, tbody, tr, td { 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	color: #000000;
+	font-size: 62.5%; /* 10px = 1em */ 
+	background-color: #ffffff;
+}
+
+#computerPresentation {
+	margin: 0 auto;
+	font-size: 1.2em;
+	border-radius: 1em;
+}
+#computerPresentation, #computerList {
+	border: 1px solid #000000;
+}
+	#computerPresentation thead {
+		font-size: 1.5em;
+	}
+		#computerList, #computerList fieldset  {
+			margin: 0.5em;
+			padding: 0.5em;
+		}
+		
+			#computerList  img {
+				width: 15em;
+				height: 9.5em;
+			}
+	#detailsPriceList {
+		font-size: 1.2em;
+	}

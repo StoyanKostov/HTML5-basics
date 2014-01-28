@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>homework-design-2.pptx</title>
+	<link rel="stylesheet" href="css/styles.css" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<noscript>
+			 <strong>Warning !</strong>
+			 Because your browser does not support HTML5, some elements are simulated using JScript.
+			 Unfortunately your browser has disabled scripting. Please enable it in order to display this page.
+		</noscript>
+	<![endif]-->
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="#">LinkedIn</a>
+		</h1>
+		<nav>
+			<ul>
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">What is LinkedIn?</a>
+				</li>
+				<li>
+					<a href="#">Join</a>
+				</li>
+				<li>
+					<form name="login" method="POST" action="#">
+						<fieldset>
+							<legend>Sign In</legend>
+							<ul>
+								<li>
+									<label for="email">Email:</label>
+									<input id="email" name="login" value="" type="text" >
+								</li>
+								<li>
+									<label for="password">Password:</label>
+									<input id="password" name="login" value="" type="password" >										
+								</li>
+								<li>
+									<input name="login" value="Sign In" type="submit" >
+								</li>									
+							</ul>
+						</fieldset>
+					</form>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h1>Over 175 million professionals use LinkedIn to exchange information, ideas and opportunities</h1>
+		<ul>
+			<li>Stay informed about your contacts and industry</li>
+			<li>Find the people & knowledge you need to achieve your goals</li>
+			<li>Control your professional identity online</li>									
+		</ul>
+	</section>
+	<aside>
+		<section>
+			<h2>Join LinkedIn Today</h2>
+			<form method="POST" action="#">
+				<fieldset>
+					<legend>Sign up</legend>
+					<ul>
+						<li>
+							<label for="firstName">First Name:</label>
+							<input type="text" name="firstName" id="firstName"/>
+						</li>
+						<li>
+							<label for="lastName">Last Name:</label>
+							<input type="text" name="lastName" id="lastName"/>
+						</li>
+						<li>
+							<label for="emailRegister">Email:</label>
+							<input type="text" name="emailRegister" id="emailRegister"/>
+						</li>
+						<li>
+							<label for="passwordRegister">Password:</label>
+							<input type="password" name="passwordRegister" id="passwordRegister"/>
+						</li>
+					</ul>
+					<p>6 or more characters</p>
+					<input type="submit" name="signUp" value="Sign up"/>
+				</fieldset>
+			</form>
+		</section>
+		<section>
+			<h3>Search for someone by name:</h3>
+			<form method="POST" action="#">
+				<ul>
+					<li>
+						<label for="searchFistName">First Name</label>:
+						<input type="text" name="searchFistName" id="searchFistName"/>
+					</li>
+					<li>
+						<label for="searchSecondName">Last Name</label>:
+						<input type="text" name="searchSecondName" id="searchSecondName"/>
+					</li>
+				</ul>
+				<input type="submit" value="Go" />
+			</form>
+		</section>
+	</aside>
+</body>
+</html>
